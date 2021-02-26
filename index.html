@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+  	<title>Snek</title>
+    <div id="score">0</div>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="game"> 
+      <canvas id="board" width="500" height="500"></canvas>
+      <p id="title">SNEK</p>
+      <p id="end">GAME OVER</p>
+      <button id="slug" onclick="mult = 1; main();">SLUG</button>
+      <button id="worm" onclick="mult = 2; main();">WORM</button>
+      <button id="python" onclick="mult = 4; main();">PYTHON</button>
+      <button id="random">RANDOM</button>
+      <button id="black">BLACK</button>
+      <button id="change">PICK</button>
+      <button id="rainbow">RAINBOW</button>
+    </div>
+    
+    <div id="left"></div>
+    <div id="right"></div>
+    <script src="script.js"></script> 
+  </body>
+  
+</html>

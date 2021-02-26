@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'Undertale';
+  src: url('fonts/DeterminationMonoWebRegular-Z5oq.ttf') format('truetype'),
+       url('fonts/DeterminationMonoWebRegular-Z5oq.eot') format('woff'),
+       url('fonts/DeterminationMonoWebRegular-Z5oq.woff');
+}
+
+* {
+  font-family: 'Undertale';
+  margin: 0;
+  padding: 0;
+}
+
+html, body { 
+  width: 100%; 
+  height: 100%; 
+  background-color: black;
+}
+
+#score {
+  text-align: center;
+  font-size: 100px;
+  color: white;
+}
+
+.game {
+  margin: auto;
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+
+#title {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 75px;
+}
+
+#end {
+  display: none;
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 75px;
+}
+
+#board {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+}
+
+button {
+  position: absolute;
+  font-size: 16px;
+  border: none;
+  background: none;
+}
+
+#slug {
+  position: fixed;
+  top: 40%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+#worm {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#python {
+  position: fixed;
+  top: 40%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+
+#black {
+  position: fixed;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+#random {
+  position: fixed;
+  top: 50%;
+  left: 46%;
+  transform: translate(-50%, -50%);
+}
+
+#change {
+  position: fixed;
+  top: 50%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+}
+
+#rainbow {
+  position: fixed;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
